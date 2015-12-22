@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to="gwtrestapp">
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='org.usesoft.gwtrestapp.gwtrestapp' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/gwtrestapp/greet" class="org.usesoft.gwtrestapp.server.GreetingServiceImpl" />
+
+</module>

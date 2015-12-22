@@ -1,0 +1,7 @@
+/target/
+# eclipse conf file
+.settings
+.classpath
+.project
+.manager
+.scala_dependencies
